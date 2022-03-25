@@ -12,8 +12,3 @@ print("girilen iki sayının toplamı :",t) #iki sayının toplamını yazdırma
 
 
 
-
-
-
-
-
