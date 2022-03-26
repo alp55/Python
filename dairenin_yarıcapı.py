@@ -9,3 +9,4 @@ cevre=(2*3.14)*yarıcap                   # dairenin cevresi hesaplanır
 print("dairenin alanı",alan)             # alan degişkeni ile degişkenin alanı ekrana yazdırılır
 print("dairenin cevresi",cevre)          # cevre degişkeni ile dairenin cevresi ekrana yazdırılır
 
+
