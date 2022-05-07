@@ -18,7 +18,7 @@ def XOX(buttons):
         b_click=False 
        
     elif buttons["text"]==" " and b_click==False:
-        buttons["text"]="Y"
+        buttons["text"]="O"
         buttons["bg"]="green"
         
         b_click=True
@@ -69,17 +69,17 @@ def XOX(buttons):
         
     
     elif (
-        (button1["text"]=="Y" and button2["text"]=="Y" and button3["text"]=="Y")or
-        (button4["text"]=="Y" and button5["text"]=="Y" and button6["text"]=="Y")or
-        (button7["text"]=="Y" and button8["text"]=="Y" and button9["text"]=="Y")or
+        (button1["text"]=="O" and button2["text"]=="O" and button3["text"]=="O")or
+        (button4["text"]=="O" and button5["text"]=="O" and button6["text"]=="O")or
+        (button7["text"]=="O" and button8["text"]=="O" and button9["text"]=="O")or
 
-        (button1["text"]=="Y" and button5["text"]=="Y" and button9["text"]=="Y")or
-        (button7["text"]=="Y" and button5["text"]=="Y" and button3["text"]=="Y")or
+        (button1["text"]=="O" and button5["text"]=="O" and button9["text"]=="O")or
+        (button7["text"]=="O" and button5["text"]=="O" and button3["text"]=="O")or
 
-        (button1["text"]=="Y" and button4["text"]=="Y" and button7["text"]=="Y")or
-        (button2["text"]=="Y" and button5["text"]=="Y" and button8["text"]=="Y")or
-        (button3["text"]=="Y" and button6["text"]=="Y" and button9["text"]=="Y")):
-        soru=messagebox.showinfo("Kazandınız","Y oyuncusu oyunu kazandı")
+        (button1["text"]=="O" and button4["text"]=="O" and button7["text"]=="O")or
+        (button2["text"]=="O" and button5["text"]=="O" and button8["text"]=="O")or
+        (button3["text"]=="O" and button6["text"]=="O" and button9["text"]=="O")):
+        soru=messagebox.showinfo("Kazandınız","O oyuncusu oyunu kazandı")
         
         soru=messagebox.askquestion("soru","tekrar oynamak ister misin ?")
         if soru=="yes":
@@ -109,7 +109,7 @@ def XOX(buttons):
         elif soru=="no":
             root.destroy()
 
-    elif ( (button1["text"]=="X"or button1["text"]=="Y")and (button2["text"]=="X"or button2["text"]=="Y")and(button3["text"]=="X"or button3["text"]=="Y")and(button4["text"]=="X"or button4["text"]=="Y")and(button5["text"]=="X"or button5["text"]=="Y")and(button6["text"]=="X"or button6["text"]=="Y")and(button7["text"]=="X"or button7["text"]=="Y") and (button8["text"]=="X"or button8["text"]=="Y") and (button9["text"]=="X"or button9["text"]=="Y")):
+    elif ( (button1["text"]=="X"or button1["text"]=="O")and (button2["text"]=="X"or button2["text"]=="O")and(button3["text"]=="X"or button3["text"]=="O")and(button4["text"]=="X"or button4["text"]=="O")and(button5["text"]=="X"or button5["text"]=="O")and(button6["text"]=="X"or button6["text"]=="O")and(button7["text"]=="X"or button7["text"]=="O") and (button8["text"]=="X"or button8["text"]=="O") and (button9["text"]=="X"or button9["text"]=="O")):
         soru=messagebox.showinfo("Berabere","Kimse kazanamadı")
         soru=messagebox.askquestion("soru","tekrar oynamak ister misin ?")
         if soru=="yes":
