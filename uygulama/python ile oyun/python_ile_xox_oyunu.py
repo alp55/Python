@@ -3,7 +3,7 @@
 # 3 oyuna başlarken bir oyuncu ataması yapmaylıyız örnegin birinci oyuncu x ikinci oyuncu y olsun 
 from tkinter import*
 from tkinter import messagebox
-from turtle import bgcolor
+
 
 root=Tk()
 root.title="XOX OYUNU"
