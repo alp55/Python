@@ -16,4 +16,4 @@ print("\n",liste) #liste degişkenin üzerindeki tüm kayıtları listeler
 
 liste.clear() #tüm kayıtları silmek için clear kulanılır
 
-print("\n",liste)
+print("\n",liste) #liste degişkenin üzerindeki tüm kayıtları listeler ama kayıt olmadıgı içi boş gösterir
